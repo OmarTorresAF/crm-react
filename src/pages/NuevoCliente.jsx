@@ -11,6 +11,7 @@ function NuevoCliente () {
             <button
             className="px-3 py-1 text-white uppercase bg-blue-800"
             onClick={() => navigate(-1)}
+            onChange={navigate}
             >
                 Volver
             </button>
