@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import Formulario from './Formulario'
 
 function NuevoCliente () {
   const navigate = useNavigate()
@@ -11,15 +12,21 @@ function NuevoCliente () {
             <button
             className="px-3 py-1 text-white uppercase bg-blue-800"
             onClick={() => navigate(-1)}
-            onChange={navigate}
             >
                 Volver
             </button>
           </div>
 
-          <div className='px-5 py-10 mx-auto bg-white rounded-md shadow md:w-3/4'>
-            <p>formulario aqui</p>
-          </div>
+          <form>
+                <div className='px-5 py-10 mx-auto mt-20 bg-white rounded-md shadow md:w-3/4'>
+                    <Formulario/>
+                    <input
+                        type='submit'
+                        className='w-full p-3 mt-5 text-lg font-bold text-white uppercase bg-blue-800'
+                        value='Registrar Cliente'
+                    />
+                </div>
+          </form>
     </>
   )
 }
