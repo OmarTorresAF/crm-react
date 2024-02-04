@@ -20,6 +20,7 @@ function Cliente ({ cliente }) {
                   type="button"
                   className="text-xs font-bold text-red-600 uppercase hover:text-red-700"
               >Eliminar</button>
+              <button>hola</button>
           </td>
 
       </tr>
