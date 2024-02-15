@@ -29,6 +29,7 @@ function Cliente({ cliente }) {
                 <button>hola</button>
                 <button>hola</button>
                 <button>hola</button>
+                <button>hola</button>
             </td>
 
         </tr>
