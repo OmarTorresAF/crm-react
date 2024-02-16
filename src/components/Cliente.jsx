@@ -1,7 +1,7 @@
-function Cliente({ cliente }) {
-    const { nombre, empresa, email, telefono, id } = cliente
+function Cliente ({ cliente }) {
+  const { nombre, empresa, email, telefono, id } = cliente
 
-    return (
+  return (
         <tr className="border-b">
             <td className='p-6 space-y-2'>
                 <p className="text-2xl text-gray-800"> {nombre} </p>
@@ -30,10 +30,11 @@ function Cliente({ cliente }) {
                 <button>hola</button>
                 <button>hola</button>
                 <button>hola</button>
+                <button>hola</button>
             </td>
 
         </tr>
-    )
+  )
 }
 
 export default Cliente
