@@ -75,6 +75,12 @@ function NuevoCliente() {
         >
           Volver
         </button>
+        <button
+          className="px-3 py-1 text-white uppercase bg-blue-800"
+          onClick={() => navigate(-1)}
+        >
+          Volver
+        </button>
       </div>
 
       <div className='px-5 mx-auto bg-white rounded-md shadow md:w-3/4 py10 mt20'>
